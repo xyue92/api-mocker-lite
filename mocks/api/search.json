@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "data": {
+    "keyword": "{{$query.q}}",
+    "results": [
+      {
+        "id": "{{$random.uuid}}",
+        "title": "{{$random.text}}",
+        "description": "{{$random.paragraph}}"
+      },
+      {
+        "id": "{{$random.uuid}}",
+        "title": "{{$random.text}}",
+        "description": "{{$random.paragraph}}"
+      }
+    ]
+  }
+}

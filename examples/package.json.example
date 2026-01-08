@@ -1,0 +1,16 @@
+{
+  "name": "my-frontend-project",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "mock": "mock-api",
+    "mock:watch": "mock-api -w",
+    "dev:mock": "concurrently \"npm run mock\" \"npm run dev\"",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "api-mocker-lite": "^1.0.0",
+    "concurrently": "^8.2.2",
+    "vite": "^5.0.0"
+  }
+}

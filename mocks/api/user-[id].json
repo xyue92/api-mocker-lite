@@ -1,0 +1,17 @@
+{
+  "$config": {
+    "delay": 300
+  },
+  "code": 0,
+  "data": {
+    "id": "{{$params.id}}",
+    "name": "{{$random.name}}",
+    "email": "{{$random.email}}",
+    "avatar": "{{$random.avatar}}",
+    "phone": "{{$random.phone}}",
+    "company": "{{$random.company}}",
+    "address": "{{$random.address}}",
+    "city": "{{$random.city}}",
+    "createdAt": "{{$now}}"
+  }
+}

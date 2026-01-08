@@ -1,0 +1,28 @@
+{
+  "code": 0,
+  "data": {
+    "total": 100,
+    "page": 1,
+    "pageSize": 10,
+    "items": [
+      {
+        "id": 1,
+        "name": "商品A",
+        "price": 99.99,
+        "stock": 100
+      },
+      {
+        "id": 2,
+        "name": "商品B",
+        "price": 199.99,
+        "stock": 50
+      },
+      {
+        "id": 3,
+        "name": "商品C",
+        "price": 299.99,
+        "stock": 30
+      }
+    ]
+  }
+}

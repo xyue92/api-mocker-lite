@@ -1,0 +1,38 @@
+{
+  "name": "api-mocker-lite",
+  "version": "1.0.0",
+  "description": "Lightweight local API mock tool for frontend developers",
+  "main": "./src/middleware.js",
+  "bin": {
+    "mock-api": "./src/cli.js"
+  },
+  "exports": {
+    ".": "./src/middleware.js",
+    "./vite": "./src/vite-plugin.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "mock",
+    "api",
+    "rest",
+    "frontend",
+    "development",
+    "vite",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.3",
+    "@faker-js/faker": "^8.3.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

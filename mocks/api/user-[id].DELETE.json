@@ -1,0 +1,10 @@
+{
+  "$config": {
+    "status": 200
+  },
+  "code": 0,
+  "message": "用户删除成功",
+  "data": {
+    "id": "{{$params.id}}"
+  }
+}

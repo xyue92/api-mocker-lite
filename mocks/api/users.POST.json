@@ -1,0 +1,15 @@
+{
+  "$config": {
+    "status": 201,
+    "delay": 500
+  },
+  "code": 0,
+  "message": "用户创建成功",
+  "data": {
+    "id": "{{$random.uuid}}",
+    "name": "{{$body.name}}",
+    "email": "{{$body.email}}",
+    "role": "user",
+    "createdAt": "{{$now}}"
+  }
+}
